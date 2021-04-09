@@ -12,7 +12,7 @@
 
   <head>
     <title>Marko J&auml;rvenp&auml;&auml;'s home page</title>
-    <link rev="made" href="mailto:marko.j.jarvenpaa@aalto.fi">
+    <link rev="made" href="mailto:m.j.jarvenpaa@medisin.uio.no">
     <meta name="robots" content="index, follow">
     <meta name="description" content="Marko J&auml;rvenp&auml;&auml;'s home page">
     <meta http-equiv="Content-Type" content="text/html;
@@ -31,10 +31,10 @@
 
     <h1>
       Marko J&auml;rvenp&auml;&auml;
-      <img src="my_figure.jpg" alt="" width="200" align="right">
+      <img src="my_figure2.jpg" alt="" width="200" align="right">
     </h1>
 
-    <b>D.Sc. (Tech.), Researcher</b><br>
+    <b>D.Sc. (Tech.), Postdoctoral research fellow</b><br>
 
     <dl compact>
       <!--
@@ -58,34 +58,52 @@
     <hr>
 
 <h3>About me</h3>
-I am broadly interested in computational (Bayesian) statistics and probabilistic machine learning. My current line of research consists of the two following topics:
-<ul style="list-style-type:square;">
-<li>
-Computationally efficient methods for <i><b>Approximate Bayesian Computation (ABC) and likelihood-free inference</b></i> using <i><b>Gaussian process</b></i> surrogate models and Bayesian decision theory. This topic is closely related to <i><b>Bayesian optimisation</b></i> and <i><b>Bayesian quadrature</b></i> methods. 
-</li>
+
+<p>
+I am a postdoctoral research fellow at Department of Biostatistics, University of Oslo working with Prof. <a href="https://www.med.uio.no/imb/english/people/aca/jukkac/">Jukka Corander</a>. 
 </p>
 
-<li>
-Probabilistic models and inference algorithms for applications in <i><b>computational biology</b></i>. 
-</li>
+<p>
+I was a doctoral student in the <a href="http://research.cs.aalto.fi/pml"/>Probabilistic Machine Learning</a> and Machine Learning for Health research groups at Aalto University, Finland in 2016-2020. My advisors were Prof. <a href="https://users.ics.aalto.fi/pemartti/">Pekka Marttinen</a> and Prof. <a href="http://users.aalto.fi/~ave/">Aki Vehtari</a>.
 </p>
-</ul>
 
-Before joining University of Oslo in early 2020, I was a doctoral student in the <a href="http://research.cs.aalto.fi/pml"/>Probabilistic Machine Learning</a> and Machine Learning for Health research groups at Aalto University, Finland in 2016-2020. My advisors were Prof. <a href="https://users.ics.aalto.fi/pemartti/">Pekka Marttinen</a> and Prof. <a href="http://users.aalto.fi/~ave/">Aki Vehtari</a>.
+<p>
+In my doctoral thesis I developed a probabilistic, sample-efficient framework for <b><a href="https://en.wikipedia.org/wiki/Approximate_Bayesian_computation"/>ABC inference</a></b> with expensive simulator-based statistical models. This inference framework is based on <b>Gaussian process surrogate modelling</b> and <b>Bayesian decision theory</b>, and could be called as <b>"Bayesian ABC"</b> in analogy with related <b><a href="http://probabilistic-numerics.org/"/>probabilistic numerical methods</a></b> such as <b>Bayesian quadrature</b> and <b>Bayesian optimisation</b>. I then also extended the framework for Bayesian inference when a limited number of possibly noisy evaluations of the likelihood function (or some approximation of it) can only be obtained due to computational constraints.
+</p>
+
+<p>
 I was a visiting researcher at Harvard T.H. Chan School of Public Health during the autumn 2017. 
 I obtained M.Sc. degree in applied mathematics from Tampere University of Technology, Finland in 2013. 
 <!--During 2012-2013 I worked with positioning algorithms at TUT. 
 During 2013-2015 I was with TUT and the Finnish Environmental Institute working with data analysis for forest and soil science. -->
+</p>
+
+
+<h3>Research interests</h3>
+
+<p>
+Approximate Bayesian inference (especially Approximate Bayesian computation, also known as likelihood-free or simulation-based inference), numerical methods based on Gaussian process surrogate modelling, probabilistic models and inference algorithms for computational biology applications. 
+</p>
+</ul>
+
 
 
 
 <!-- working papers: -->
 
-<!--
-<h3> Working papers </h3> 
-<ol reversed start=10>
+<h3> Working papers</h3> 
+<ol reversed start=11>
+
+<p>
+<li>
+  <u>Järvenpää, M.</u>, Corander, J. (2021).
+  <b>Approximate Bayesian inference from noisy likelihoods with Gaussian process emulated MCMC.</b>
+  <a href="https://arxiv.org/abs/2104.03942">Arxiv preprint</a> 
+</li>
+</p>
+
 </ol>
--->
+
 
 <!-- papers: -->
 
@@ -93,6 +111,20 @@ During 2013-2015 I was with TUT and the Finnish Environmental Institute working 
 <h3>Publications</h3>
 <ol reversed>
 
+<p>
+<li>
+  <u>Järvenpää, M.</u>, Gutmann, M.U., Vehtari, A., and Marttinen, P. (2021).
+  <!--<b>Parallel Gaussian process surrogate method to accelerate likelihood-free inference.</b>-->
+  <b>Parallel Gaussian process surrogate Bayesian inference with noisy likelihood evaluations.</b>
+  <i>Bayesian Analysis</i>, 16(1):147-178.
+  <a href="https://projecteuclid.org/euclid.ba/1584583229">Online</a> 
+  <a href="https://arxiv.org/abs/1905.01252">Arxiv preprint</a> 
+  <!--<br>-->
+  <p style="font-size:13px">(Note that the previous version of this paper was titled <b>Parallel Gaussian process surrogate method to accelerate likelihood-free inference</b>.)</p>
+</li>
+</p>
+
+<p>
 <li>
   <u>Järvenpää, M.</u>, Vehtari, A., and Marttinen, P. (2020).
   <b>Batch simulations and uncertainty quantification in Gaussian process surrogate approximate Bayesian computation.</b>
@@ -103,18 +135,7 @@ During 2013-2015 I was with TUT and the Finnish Environmental Institute working 
 </li>
 </p>
 
-<li>
-  <u>Järvenpää, M.</u>, Gutmann, M.U., Vehtari, A., and Marttinen, P. (2020).
-  <!--<b>Parallel Gaussian process surrogate method to accelerate likelihood-free inference.</b>-->
-  <b>Parallel Gaussian process surrogate Bayesian inference with noisy likelihood evaluations.</b>
-  <i>Bayesian Analysis, to appear</i>.
-  <a href="https://projecteuclid.org/euclid.ba/1584583229">Online</a> 
-  <a href="https://arxiv.org/abs/1905.01252">Arxiv preprint</a> 
-  <!--<br>-->
-  <p style="font-size:13px">(Note that the previous version of this paper was titled <b>Parallel Gaussian process surrogate method to accelerate likelihood-free inference</b>.)</p>
-</li>
-</p>
-
+<p>
 <li>
   Karhu, K., Hilasvuori, E., <u>Järvenpää, M.</u>, Arppe, L., Christensen, B.T., Fritze, H., Kulmala, L., Oinonen, M., Pitkänen, J.-M., Vanhala, P., Heinonsalo, J., and Liski J. (2019).
   <b>Similar temperature sensitivity of soil mineral-associated organic carbon regardless of age</b>.
@@ -123,6 +144,7 @@ During 2013-2015 I was with TUT and the Finnish Environmental Institute working 
 </li>
 </p>
 
+<p>
 <li>
   <u>Järvenpää, M.</u>, Sater, M.R.A., Lagoudas, K.G., Blainey, P.C., Miller, L.G., McKinnell, J.A., Huang, S.S., Grad, Y.H. and Marttinen P. (2019).
   <b>A Bayesian model of acquisition and clearance of bacterial colonization incorporating within-host variation</b>.
@@ -278,6 +300,14 @@ to be added when I have time :)
 
 
 <p>
+<h3>Community involvement</h3>
+<dd>I have served as a reviewer for the following journals: <i>Journal of Bioinformatics and Computational Biology</i>, <i>SIAM/ASA Journal on Uncertainty quantification</i>, <i>Statistics and Computing</i> and for the following conferences: <i>AAAI (2020)</i>, <i>AABI (Advances in approximate Bayesian inference, 2018, 2019)</i>, <i>AISTATS (2018, 2020, 2021)</i>, <i>ICML (2019)</i>, <i>NeurIPS (2018, 2019, 2020)</i>.</dd>
+
+<dd>I was selected as one of the <a href=https://nips.cc/Conferences/2019/Reviewers>best reviewers</a> of NeurIPS 2019.</dd>
+<p>
+
+
+<p>
 <h3>Teaching (at Aalto University)</h3>
 <ul>
 <li> <a href="https://mycourses.aalto.fi/course/view.php?id=16957">Machine Learning: Advanced Probabilistic Methods</a>, spring 2018, 2019, 2020, teaching assistant. Lectured by Prof. Pekka Marttinen.
@@ -293,7 +323,7 @@ to be added when I have time :)
 
 <hr>
 <!-- hhmts start -->
-Last modified: 23 October 2020
+Last modified: 9 April 2021
 <!-- hhmts end -->
 </div>
 </body>
